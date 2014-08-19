@@ -23,8 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="mongodb" />
+        <module name="SpringDataExample" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mongodb" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
